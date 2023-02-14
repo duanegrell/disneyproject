@@ -1,3 +1,8 @@
+.App {
+  text-align: center;
+  background-color:#c3cfd3;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
