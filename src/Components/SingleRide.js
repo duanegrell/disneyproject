@@ -1,6 +1,6 @@
 import React from "react";
 
-function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration  } ) {
+function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration } ) {
 
     return (
     <div className = 'tile'>

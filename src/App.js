@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Rides from "./Components/Rides";
 import './App.css';
+import Header from "./Components/Header";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
         <main>
-          Disney
+          <Header />
           <Rides ridesList={ridesList}/>
         </main>
     </div>
