@@ -1,3 +1,5 @@
+
+import FilterBar from './Components/FilterBar';
 import React, { useEffect, useState } from "react";
 import Rides from "./Components/Rides";
 import './App.css';
@@ -16,8 +18,8 @@ function App() {
   return (
     <div className="App">
         <main>
-          <Header />
-          <Rides ridesList={ridesList}/>
+          Disney
+          <FilterBar/>
         </main>
     </div>
   );
