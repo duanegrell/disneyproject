@@ -1,19 +1,35 @@
-import React from "react";
+import React, {useState} from "react";
 
-function FilterBar() {
-
+function FilterBar({ridesList}) {
     function handleClickSearch() {
         console.log('clicked')
     }
-
     // filter buttons here
+    const [location, setLocation] = useState([]); 
+    const [scary, setScary] = useState(true);
+    const [water, setWater] = useState(true);
+    const [kids, setKids] = useState(true);
+    const [spin, setSpin] = useState(true);
+    const [heightReq, setHeightReq] = useState([]);
+    const [durations, setDurations] = useState([]);
+
     const locations = ['HS', 'MK', 'AK', 'EC'];
     const locationHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
+        const rideLocation = ridesList.filter(location => 
+            // console.log(location.Park_location)
+            location.Park_location === e
+            )
+            setLocation(rideLocation)
     }
     const scaryOrNot = ['Yes', 'No'];
     const scaryHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
+        if (scary === true) {
+            setScary(true)
+        } else {
+            setScary(false);
+        } 
     }
     const waterRide = ['Yes', 'No'];
     const waterRideHandler = (e) => {
@@ -45,22 +61,29 @@ function FilterBar() {
                     return <option key={index} >{location}</option>
                 })}
             </select>
-
             <select onChange={scaryHandler}>
                 <option>Scary or Not </option>
-                <option>{}</option>
+                {scaryOrNot.map((scaryOrNot, index) => {
+                    return <option key={index}>{scaryOrNot}</option>
+                })}
             </select>
             <select onChange={waterRideHandler}>
                 <option>Water Ride </option>
-                <option>{}</option>
+                {waterRide.map((waterRide, index) => {
+                    return <option key={index}>{waterRide}</option>
+                })}
             </select>
             <select onChange={kidsFriendlyHandler}>
                 <option>Kids friendly </option>
-                <option>{}</option>
+                {kidsFriendly.map((kidsFriendly, index) => {
+                    return <option key={index}>{kidsFriendly}</option>
+                })}
             </select>
             <select onChange={spinningHandler}>
                 <option>Spinning </option>
-                <option>{}</option>
+                {spinning.map((spinning, index) => {
+                    return <option key={index}>{spinning}</option>
+                })}
             </select>
             <select onChange={heightHandler}>
                 <option>Height </option>

@@ -19,7 +19,7 @@ function App() {
     <div className="App">
         <main>
           <Header />
-          <FilterBar />
+          <FilterBar ridesList={ridesList} />
           <Rides ridesList={ridesList}/>
         </main>
     </div>
