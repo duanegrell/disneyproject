@@ -11,6 +11,11 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
     const isScary = [`Scary: ${scary}`]
     const location = [`Location: ${parkLocation}`]
 
+    // if (parkLocation === "MK") {
+    //     return "Location: Hong Kong"
+    // }
+
+
     function handleClick() {
       if (clicked == true) {
         setClicked(false);
@@ -34,6 +39,7 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
         <div className="card__content">
             <div className="card__title">{name} </div>
             <p className="card__text">Type: {type}</p>
+            {/* <p>{parkLocation}</p> */}
             <div className="card__detail" >
                 <p>{clicked ? location : null}</p>
                 <p>{clicked ? isScary : null}</p>

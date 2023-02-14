@@ -4,6 +4,7 @@ import Rides from "./Components/Rides";
 import './App.css';
 import Header from "./Components/Header";
 import FilterBar from "./Components/FilterBar";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
 
@@ -19,8 +20,22 @@ function App() {
     <div className="App">
         <main>
           <Header />
-          <FilterBar />
-          <Rides ridesList={ridesList}/>
+          <Switch>
+            
+            <Route path="/rides">
+              <Rides ridesList={ridesList}/>
+            </Route>
+
+            {/* /Filter => Route to main page  */}
+            <Route path="/filter">
+              <FilterBar />
+            </Route>
+
+            {/* / => Route to main page  */}
+            
+
+          </Switch>
+
         </main>
     </div>
   );
