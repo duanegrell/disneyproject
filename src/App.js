@@ -1,5 +1,4 @@
 
-import FilterBar from './Components/FilterBar';
 import React, { useEffect, useState } from "react";
 import Rides from "./Components/Rides";
 import './App.css';

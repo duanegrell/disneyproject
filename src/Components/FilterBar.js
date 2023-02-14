@@ -1,3 +1,5 @@
+import React from "react";
+
 function FilterBar() {
 
     function handleClickSearch() {
@@ -35,7 +37,8 @@ function FilterBar() {
     }
     
     return (
-        <h2>
+        <div>
+            <h2>
             <select onChange={locationHandler}>
                 <option>Location </option>
                 {locations.map((location, index) => {
@@ -83,7 +86,8 @@ function FilterBar() {
             </select>*/}
             <br/>
             <button className="search-btn" onClick={handleClickSearch}>Search</button>
-        </h2>
+            </h2>
+        </div>
     )
 }
 
