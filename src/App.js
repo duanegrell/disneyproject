@@ -4,6 +4,7 @@ import Rides from "./Components/Rides";
 import './App.css';
 import Header from "./Components/Header";
 import FilterBar from "./Components/FilterBar";
+import NavBar from "./Components/NavBar";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
         <main>
+          <NavBar />
           <Header />
           <Switch>
             
