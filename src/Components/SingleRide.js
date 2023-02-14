@@ -1,19 +1,29 @@
 import React from "react";
 
-function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration } ) {
+function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration, image } ) {
 
     return (
-    <div className = 'tile'>
-        <p>---</p>
-        <p>Name: {name}</p>
-        <p>Type: {type}</p>
-        <p>Location: {parkLocation}</p>
-        <p>Scary: {scary}</p>
-        <p>Slow: {slow}</p>
-        <p>Water: {water}</p>
-        <p>Height Requirement: {heightRequirement} inches</p>
-        <p>Duration: {rideDuration} minutes</p>
-    </div>
+    <li className = 'cards_item'>
+        <div className="card">
+        <img 
+            src={image}
+            alt={name}
+            className="card__image"
+         />
+        <div className="card__content">
+            <div className="card__title">Name: {name} </div>
+            <p className="card__text">Type: {type}</p>
+            <div className="card__detail">
+                <p>Location: {parkLocation}</p>
+                <p>Scary: {scary}</p>
+                <p>Slow: {slow}</p>
+                <p>Water: {water}</p>
+                <p>Height Requirement: {heightRequirement} inches</p>
+                <p>Duration: {rideDuration} minutes</p>
+            </div>
+            </div>
+        </div>
+    </li>
     );
 };
 
