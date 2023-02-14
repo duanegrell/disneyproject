@@ -14,7 +14,7 @@ function Rides( {ridesList}) {
             water = {ride.Ride_type_water}
             heightRequirement = {ride.Height_req_inches}
             rideDuration = {ride.Ride_duration_min}
-            image = {ride.image}
+            image = {ride.Image}
         />
 
     ))

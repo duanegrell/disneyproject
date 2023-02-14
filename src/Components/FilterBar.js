@@ -1,4 +1,3 @@
-
 function FilterBar() {
 
     function handleClickSearch() {
