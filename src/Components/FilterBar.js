@@ -6,6 +6,7 @@ function FilterBar({ridesList}) {
     }
     // filter buttons here
     const [location, setLocation] = useState([]); 
+    
     const [scary, setScary] = useState(true);
     const [water, setWater] = useState(true);
     const [kids, setKids] = useState(true);
@@ -14,17 +15,17 @@ function FilterBar({ridesList}) {
     const [durations, setDurations] = useState([]);
 
     const locations = ['HS', 'MK', 'AK', 'EC'];
+    
     const locationHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
         const rideLocation = ridesList.filter(ride => {
-                // console.log(ride.Park_location)
-                if (e.target.value === ride.Park_location) {
-                    return ride;
-                }
-                return null;
+
+                return ride.Park_location.includes(e.target.value)
             })
+            console.log(rideLocation)
             setLocation(rideLocation)
     }
+
     const scaryOrNot = ['Yes', 'No'];
     const scaryHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
@@ -113,6 +114,7 @@ function FilterBar({ridesList}) {
             <br/>
             <button className="search-btn" onClick={handleClickSearch}>Search</button>
             </h2>
+
         </div>
     )
 }
