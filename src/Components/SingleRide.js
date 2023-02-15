@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Comments from "./Comment";
 
 function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration, image } ) {
 
@@ -25,10 +26,8 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
       }
     }
 
-    console.log(clicked)
-
     return (
-    <li className = 'cards_item' onClick = {handleClick}>
+    <li className = 'cards_item'>
         <div className="card">
         <img 
             src={image}
@@ -36,31 +35,20 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
             className="card__image"
          />
 
-        <div className="card__content">
+        <div onClick = {handleClick} className="card__content">
             <div className="card__title">{name} </div>
             <p className="card__text">Type: {type}</p>
             {/* <p>{parkLocation}</p> */}
-            <div className="card__detail" >
-                <p>{clicked ? location : null}</p>
-                <p>{clicked ? isScary : null}</p>
-                <p>{clicked ? isSlow : null}</p>
-                <p>{clicked ? isWet : null}</p>
-                <p>{clicked ? duration : null}</p>
-                <p>{clicked ? height : null}</p>
+                <div className="card__detail" >
+                    <p>{clicked ? location : null}</p>
+                    <p>{clicked ? isScary : null}</p>
+                    <p>{clicked ? isSlow : null}</p>
+                    <p>{clicked ? isWet : null}</p>
+                    <p>{clicked ? duration : null}</p>
+                    <p>{clicked ? height : null}</p>
+                </div>
             </div>
-            <div className="card_comment_form">
-                <form>
-                    <label>
-                        Comment:
-                        <input type="text" name="comment" />
-                    </label>
-                    <input type="submit" name="Submit" />
-                </form>
-            </div>
-            <div className="card_comments">
-                {/* Unordered list of comments will go here */}
-            </div>
-            </div>
+            <p>{clicked ? <Comments/> : null}</p>              
         </div>
     </li>
     );
