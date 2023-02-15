@@ -48,6 +48,18 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
                 <p>{clicked ? duration : null}</p>
                 <p>{clicked ? height : null}</p>
             </div>
+            <div className="card_comment_form">
+                <form>
+                    <label>
+                        Comment:
+                        <input type="text" name="comment" />
+                    </label>
+                    <input type="submit" name="Submit" />
+                </form>
+            </div>
+            <div className="card_comments">
+                {/* Unordered list of comments will go here */}
+            </div>
             </div>
         </div>
     </li>
