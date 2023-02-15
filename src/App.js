@@ -22,6 +22,7 @@ function App() {
         <main>
           <NavBar />
           <Header />
+
           <Switch>
             
             <Route path="/rides">
@@ -30,7 +31,7 @@ function App() {
 
             {/* /Filter => Route to main page  */}
             <Route path="/filter">
-              <FilterBar />
+              <FilterBar ridesList={ridesList}/>
             </Route>
 
             {/* / => Route to main page  */}
