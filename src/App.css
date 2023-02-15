@@ -1,6 +1,92 @@
 .App {
   text-align: center;
-  background-color:#c3cfd3;
+  background-color: #c3cfd3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: inline-block;
+  background-color: #2196f3;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #0d8bf2;
+}
+
+header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header span h3:first-child {
+  margin-right: auto;
+}
+
+header span h3:last-child {
+  margin-left: auto;
+}
+
+header h3 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #0074d9;
+}
+
+header a:hover {
+  background-color: #0062ac;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+select {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  appearance: none;
 }
 
 .cards {

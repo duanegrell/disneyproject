@@ -6,19 +6,19 @@ function NavBar() {
     <header>
         <span>
             <h3>
-                <Link to="/">
+                <Link to="/" className="nav-link">
                     Home
                 </Link>
             </h3>
 
             <h3>
-                <Link to="/rides">
+                <Link to="/rides" className="nav-link">
                     Rides
                 </Link>
             </h3>
 
             <h3>
-                <Link to="/filter">
+                <Link to="/filter" className="nav-link">
                     Filter
                 </Link>
             </h3>
