@@ -1,4 +1,3 @@
-
 { "rides" :
 
 [{
@@ -30,7 +29,8 @@
     "Age_of_ride_total": "1 years 3 months 24 days",
     "TL_rank": 31,
     "TA_Stars": "NA",
-    "Image": "https://1.bp.blogspot.com/-NyTbVsoBdlU/X_J853f7PKI/AAAAAAAAVMM/bWR0ahn9P1oU1HxbUvFn8Wnw8d9PKQBhgCPcBGAsYHg/w640-h480/IMG_6796.JPG"
+    "Image": "https://1.bp.blogspot.com/-NyTbVsoBdlU/X_J853f7PKI/AAAAAAAAVMM/bWR0ahn9P1oU1HxbUvFn8Wnw8d9PKQBhgCPcBGAsYHg/w640-h480/IMG_6796.JPG",
+    "Comments": []
 },{
     "Ride_name": "Astro Orbiter",
     "Park_location": "MK",
@@ -60,7 +60,8 @@
     "Age_of_ride_total": "24 years 7 months 27 days",
     "TL_rank": 43,
     "TA_Stars": 3.5,
-    "Image": "https://wdwmagic.twic.pics/ElementGalleryItems/attractions/Fullsize/Astro-Orbitor_Full_40009.jpg?twic=v1/max=760x1791"
+    "Image": "https://wdwmagic.twic.pics/ElementGalleryItems/attractions/Fullsize/Astro-Orbitor_Full_40009.jpg?twic=v1/max=760x1791",
+    "Comments": []
 },{
     "Ride_name": "Avatar Flight of Passage",
     "Park_location": "AK",
@@ -90,7 +91,8 @@
     "Age_of_ride_total": "2 years 4 months 28 days",
     "TL_rank": 9,
     "TA_Stars": 5,
-    "Image": "https://blog-cdn.touringplans.com/blog/wp-content/uploads/2021/02/FOP_ridevehicles_bioreconstruct-700x394-1.jpg"
+    "Image": "https://blog-cdn.touringplans.com/blog/wp-content/uploads/2021/02/FOP_ridevehicles_bioreconstruct-700x394-1.jpg",
+    "Comments": []
 },{
     "Ride_name": "Big Thunder Mountain Railroad",
     "Park_location": "MK",
@@ -120,7 +122,8 @@
     "Age_of_ride_total": "39 years 0 months 29 days",
     "TL_rank": 8,
     "TA_Stars": 4.5,
-    "Image": "https://www.wdwinfo.com/wp-content/uploads/2022/06/big-thunder-mountain-train.jpeg"
+    "Image": "https://www.wdwinfo.com/wp-content/uploads/2022/06/big-thunder-mountain-train.jpeg", 
+    "Comments": []
 },{
     "Ride_name": "Buzz Lightyear's Space Ranger Spin",
     "Park_location": "MK",
@@ -150,7 +153,8 @@
     "Age_of_ride_total": "21 years 0 months 15 days",
     "TL_rank": 32,
     "TA_Stars": 4.5,
-    "Image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a5/b7/ed/20180101-102412-largejpg.jpg?w=1200&h=-1&s=1"
+    "Image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a5/b7/ed/20180101-102412-largejpg.jpg?w=1200&h=-1&s=1",
+    "Comments": []
 },{
     "Ride_name": "Dinosaur",
     "Park_location": "AK",
@@ -180,7 +184,8 @@
     "Age_of_ride_total": "21 years 6 months 2 days",
     "TL_rank": 24,
     "TA_Stars": 4,
-    "Image": "https://media.wdwnt.com/2022/07/dinosaur-promo-photo.jpg"
+    "Image": "https://media.wdwnt.com/2022/07/dinosaur-promo-photo.jpg",
+    "Comments": []
 },{
     "Ride_name": "Dumbo the Flying Elephant",
     "Park_location": "MK",
@@ -210,7 +215,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 29,
     "TA_Stars": 4.5,
-    "Image": "https://static.wikia.nocookie.net/disney/images/e/e6/Dumbo_the_Flying_Elephant_shanghai.jpg/revision/latest?cb=20200524201005"
+    "Image": "https://static.wikia.nocookie.net/disney/images/e/e6/Dumbo_the_Flying_Elephant_shanghai.jpg/revision/latest?cb=20200524201005",
+    "Comments": []
 },{
     "Ride_name": "Expedition Everest",
     "Park_location": "AK",
@@ -240,7 +246,8 @@
     "Age_of_ride_total": "13 years 6 months 17 days",
     "TL_rank": 1,
     "TA_Stars": 5,
-    "Image": "https://allears.net/wp-content/uploads/2020/05/expedition-everest-_-animal-kingdom-general--e1589392226231.jpg"
+    "Image": "https://allears.net/wp-content/uploads/2020/05/expedition-everest-_-animal-kingdom-general--e1589392226231.jpg",
+    "Comments": []
 },{
     "Ride_name": "Frozen Ever After",
     "Park_location": "EC",
@@ -270,7 +277,8 @@
     "Age_of_ride_total": "3 years 4 months 3 days",
     "TL_rank": 27,
     "TA_Stars": 4,
-    "Image": "https://images.squarespace-cdn.com/content/v1/58520a4e37c58186144df0cf/181f67c9-c2af-47a2-a2c3-1691b3584e6d/frozen-ever-after-04.jpeg"
+    "Image": "https://images.squarespace-cdn.com/content/v1/58520a4e37c58186144df0cf/181f67c9-c2af-47a2-a2c3-1691b3584e6d/frozen-ever-after-04.jpeg",
+    "Comments": []
 },{
     "Ride_name": "Gran Fiesta Tour Starring The Three Caballeros",
     "Park_location": "EC",
@@ -300,7 +308,8 @@
     "Age_of_ride_total": "12 years 6 months 22 days",
     "TL_rank": 47,
     "TA_Stars": 4,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/gran-fiesta-tour/gran-fiesta-tour-starring-the-three-caballeros-gallery01.jpg?1660839227579"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/gran-fiesta-tour/gran-fiesta-tour-starring-the-three-caballeros-gallery01.jpg?1660839227579",
+    "Comments": []
 },{
     "Ride_name": "Haunted Mansion",
     "Park_location": "MK",
@@ -330,7 +339,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 2,
     "TA_Stars": 4.5,
-    "Image": "https://images.squarespace-cdn.com/content/v1/54493bfee4b078c86b426a79/1589671797929-AHKNZF70881QW7577RB0/haunted-mansion-disney-world"
+    "Image": "https://images.squarespace-cdn.com/content/v1/54493bfee4b078c86b426a79/1589671797929-AHKNZF70881QW7577RB0/haunted-mansion-disney-world",
+    "Comments": []
 },{
     "Ride_name": "It's a Small World",
     "Park_location": "MK",
@@ -360,7 +370,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 16,
     "TA_Stars": 4,
-    "Image": "https://www.gannett-cdn.com/media/USATODAY/GenericImages/2013/03/27/ap-stuck-on-small-world-16_9.jpg?width=3000&height=1697&fit=crop&format=pjpg&auto=webp"
+    "Image": "https://www.gannett-cdn.com/media/USATODAY/GenericImages/2013/03/27/ap-stuck-on-small-world-16_9.jpg?width=3000&height=1697&fit=crop&format=pjpg&auto=webp",
+    "Comments": []
 },{
     "Ride_name": "Journey Into Imagination with Figment",
     "Park_location": "EC",
@@ -390,7 +401,8 @@
     "Age_of_ride_total": "17 years 4 months 23 days",
     "TL_rank": 53,
     "TA_Stars": 3,
-    "Image": "https://www.wdwinfo.com/wp-content/uploads/2022/03/imagination-01.jpeg"
+    "Image": "https://www.wdwinfo.com/wp-content/uploads/2022/03/imagination-01.jpeg",
+    "Comments": []
 },{
     "Ride_name": "Jungle Cruise",
     "Park_location": "MK",
@@ -420,7 +432,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 19,
     "TA_Stars": 4,
-    "Image": "https://cdn.cnn.com/cnnnext/dam/assets/210712153839-disneyland-jungle-cruise-ride-0709-restricted-super-tease.jpg"
+    "Image": "https://cdn.cnn.com/cnnnext/dam/assets/210712153839-disneyland-jungle-cruise-ride-0709-restricted-super-tease.jpg",
+    "Comments": []
 },{
     "Ride_name": "Kali River Rapids",
     "Park_location": "AK",
@@ -450,7 +463,8 @@
     "Age_of_ride_total": "20 years 8 months 6 days",
     "TL_rank": 21,
     "TA_Stars": 4.5,
-    "Image": "https://www.wdw-magazine.com/wp-content/uploads/2020/04/Kali-River-Rapids-Judd5-e1598900415766.jpg"
+    "Image": "https://www.wdw-magazine.com/wp-content/uploads/2020/04/Kali-River-Rapids-Judd5-e1598900415766.jpg",
+    "Comments": []
 },{
     "Ride_name": "Kilimanjaro Safaris",
     "Park_location": "AK",
@@ -480,7 +494,8 @@
     "Age_of_ride_total": "21 years 6 months 2 days",
     "TL_rank": 11,
     "TA_Stars": 4.5,
-    "Image": "https://wdwmagic.twic.pics/ElementGalleryItems/attractions/Fullsize/Kilimanjaro-Safaris_Full_46854.jpg"
+    "Image": "https://wdwmagic.twic.pics/ElementGalleryItems/attractions/Fullsize/Kilimanjaro-Safaris_Full_46854.jpg",
+    "Comments": []
 },{
     "Ride_name": "Living with the Land",
     "Park_location": "EC",
@@ -510,7 +525,8 @@
     "Age_of_ride_total": "37 years 0 months 21 days",
     "TL_rank": 42,
     "TA_Stars": 4,
-    "Image": "https://images.squarespace-cdn.com/content/v1/58520a4e37c58186144df0cf/ba1f37eb-81e9-463d-8d84-55fe8e65ee2b/living-with-the-land-04.jpeg"
+    "Image": "https://images.squarespace-cdn.com/content/v1/58520a4e37c58186144df0cf/ba1f37eb-81e9-463d-8d84-55fe8e65ee2b/living-with-the-land-04.jpeg",
+    "Comments": []
 },{
     "Ride_name": "Mad Tea Party",
     "Park_location": "MK",
@@ -540,7 +556,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 20,
     "TA_Stars": 4,
-    "Image": "https://www.disneydining.com/wp-content/uploads/2018/05/mad-tea-cups-empty-1-3-620x330.jpg"
+    "Image": "https://www.disneydining.com/wp-content/uploads/2018/05/mad-tea-cups-empty-1-3-620x330.jpg",
+    "Comments": []
 },{
     "Ride_name": "Main Street Vehicles",
     "Park_location": "MK",
@@ -570,7 +587,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": "NA",
     "TA_Stars": 4.5,
-    "Image": "https://wdwmagic.twic.pics/ElementGalleryItems/attractions/Fullsize/Main-Street-Vehicles_Full_32169.jpg?twic=v1/max=760x1791"
+    "Image": "https://wdwmagic.twic.pics/ElementGalleryItems/attractions/Fullsize/Main-Street-Vehicles_Full_32169.jpg?twic=v1/max=760x1791",
+    "Comments": []
 },{
     "Ride_name": "Mission Space",
     "Park_location": "EC",
@@ -600,7 +618,8 @@
     "Age_of_ride_total": "16 years 0 months 22 days",
     "TL_rank": 33,
     "TA_Stars": 3.5,
-    "Image": "https://www.wdw-magazine.com/wp-content/uploads/2020/08/mission-space-mike-billick.jpg"
+    "Image": "https://www.wdw-magazine.com/wp-content/uploads/2020/08/mission-space-mike-billick.jpg",
+    "Comments": []
 },{
     "Ride_name": "Na'vi River Journey",
     "Park_location": "AK",
@@ -630,7 +649,8 @@
     "Age_of_ride_total": "2 years 4 months 28 days",
     "TL_rank": 25,
     "TA_Stars": 4,
-    "Image": "https://www.ocregister.com/wp-content/uploads/2017/06/0601_fea_ocr-l-naviride-01.jpg?w=1024"
+    "Image": "https://www.ocregister.com/wp-content/uploads/2017/06/0601_fea_ocr-l-naviride-01.jpg?w=1024",
+    "Comments": []
 },{
     "Ride_name": "Peter Pan's Flight",
     "Park_location": "MK",
@@ -660,7 +680,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 18,
     "TA_Stars": 4,
-    "Image": "https://media1.tokyodisneyresort.jp/images/adventure/attraction/521_main_visual_name_3.jpg?mod=20230131121006"
+    "Image": "https://media1.tokyodisneyresort.jp/images/adventure/attraction/521_main_visual_name_3.jpg?mod=20230131121006",
+    "Comments": []
 },{
     "Ride_name": "Pirates of the Caribbean",
     "Park_location": "MK",
@@ -690,7 +711,8 @@
     "Age_of_ride_total": "45 years 10 months 5 days",
     "TL_rank": 12,
     "TA_Stars": 4.5,
-    "Image": "https://ca-times.brightspotcdn.com/dims4/default/595fa1e/2147483647/strip/true/crop/1778x1000+0+0/resize/1200x675!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F85%2F49%2F0cd31493544658708d833cc8afb0%2Fla-1499393184-7cm3dj7cb8-snap-image"
+    "Image": "https://ca-times.brightspotcdn.com/dims4/default/595fa1e/2147483647/strip/true/crop/1778x1000+0+0/resize/1200x675!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F85%2F49%2F0cd31493544658708d833cc8afb0%2Fla-1499393184-7cm3dj7cb8-snap-image",
+    "Comments": []
 },{
     "Ride_name": "Primeval Whirl",
     "Park_location": "AK",
@@ -720,7 +742,8 @@
     "Age_of_ride_total": "17 years 6 months 6 days",
     "TL_rank": 41,
     "TA_Stars": 4,
-    "Image": "https://ziggyknowsdisney.com/wp-content/uploads/2019/08/primeval-whirl-animal-kingdom-800x533.jpg"
+    "Image": "https://ziggyknowsdisney.com/wp-content/uploads/2019/08/primeval-whirl-animal-kingdom-800x533.jpg",
+    "Comments": []
 },{
     "Ride_name": "Prince Charming Regal Carrousel",
     "Park_location": "MK",
@@ -750,7 +773,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 51,
     "TA_Stars": 4.5,
-    "Image": "https://www.wdwinfo.com/wp-content/uploads/2021/03/magic-kingdom-carousel-7-1.jpg"
+    "Image": "https://www.wdwinfo.com/wp-content/uploads/2021/03/magic-kingdom-carousel-7-1.jpg",
+    "Comments": []
 },{
     "Ride_name": "Rock 'n' Roller Coaster",
     "Park_location": "HS",
@@ -780,7 +804,8 @@
     "Age_of_ride_total": "20 years 2 months 26 days",
     "TL_rank": 13,
     "TA_Stars": 5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/rock-and-roller-coaster-starring-aerosmith/rock-and-roller-coaster-starring-aerosmith-gallery01.jpg?1551208906640"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/rock-and-roller-coaster-starring-aerosmith/rock-and-roller-coaster-starring-aerosmith-gallery01.jpg?1551208906640",
+    "Comments": []
 },{
     "Ride_name": "Seven Dwarfs Mine Train",
     "Park_location": "MK",
@@ -810,7 +835,8 @@
     "Age_of_ride_total": "5 years 4 months 27 days",
     "TL_rank": 10,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2014/05/TRAIN345.jpg"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2014/05/TRAIN345.jpg",
+    "Comments": []
 },{
     "Ride_name": "Slinky Dog Dash",
     "Park_location": "HS",
@@ -840,7 +866,8 @@
     "Age_of_ride_total": "1 years 3 months 24 days",
     "TL_rank": 14,
     "TA_Stars": "NA",
-    "Image": "https://www.travelandleisure.com/thmb/Uo1b4oQfdUQhFAmhsKSvZDGaDU0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/toy-story-land-slinky-dog-dash-TSLCOASTER0718-6d53d091048a49f2a935c3c1b81ed5e5.jpg"
+    "Image": "https://www.travelandleisure.com/thmb/Uo1b4oQfdUQhFAmhsKSvZDGaDU0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/toy-story-land-slinky-dog-dash-TSLCOASTER0718-6d53d091048a49f2a935c3c1b81ed5e5.jpg",
+    "Comments": []
 },{
     "Ride_name": "Soarin' Around the World",
     "Park_location": "EC",
@@ -870,7 +897,8 @@
     "Age_of_ride_total": "14 years 5 months 19 days",
     "TL_rank": 4,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/soarin/soarin-gallery07.jpg?1660929541008"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/soarin/soarin-gallery07.jpg?1660929541008",
+    "Comments": []
 },{
     "Ride_name": "Space Mountain",
     "Park_location": "MK",
@@ -900,7 +928,8 @@
     "Age_of_ride_total": "44 years 9 months 7 days",
     "TL_rank": 5,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/space-mountain/space-mountain-00.jpg?1658978220420"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/space-mountain/space-mountain-00.jpg?1658978220420",
+    "Comments": []
 },{
     "Ride_name": "Spaceship Earth",
     "Park_location": "EC",
@@ -930,7 +959,8 @@
     "Age_of_ride_total": "37 years 0 months 21 days",
     "TL_rank": 22,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/spaceship-earth/spaceship-earth-gallery00.jpg?1661268004168"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/spaceship-earth/spaceship-earth-gallery00.jpg?1661268004168",
+    "Comments": []
 },{
     "Ride_name": "Splash Mountain",
     "Park_location": "MK",
@@ -960,7 +990,8 @@
     "Age_of_ride_total": "27 years 3 months 7 days",
     "TL_rank": 7,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/07/inmbcvfxdrsewFI.jpg"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/07/inmbcvfxdrsewFI.jpg",
+    "Comments": []
 },{
     "Ride_name": "Star Tours",
     "Park_location": "HS",
@@ -990,7 +1021,8 @@
     "Age_of_ride_total": "29 years 10 months 7 days",
     "TL_rank": 15,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2017/11/11_17_WDI_9004_1280.jpg"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2017/11/11_17_WDI_9004_1280.jpg",
+    "Comments": []
 },{
     "Ride_name": "Test Track",
     "Park_location": "EC",
@@ -1020,7 +1052,8 @@
     "Age_of_ride_total": "20 years 7 months 8 days",
     "TL_rank": 23,
     "TA_Stars": 4.5,
-    "Image": "https://magicinsiders.com/wp-content/uploads/2020/10/how-scary-is-test-track-cover-n.jpg"
+    "Image": "https://magicinsiders.com/wp-content/uploads/2020/10/how-scary-is-test-track-cover-n.jpg",
+    "Comments": []
 },{
     "Ride_name": "The Barnstormer",
     "Park_location": "MK",
@@ -1050,7 +1083,8 @@
     "Age_of_ride_total": "23 years 0 months 21 days",
     "TL_rank": 36,
     "TA_Stars": 3.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/630/354/90/media/disneyparksjapan-prod/disneyparksjapan_v0001/1/media/wdw/attractions/barnstormer-starring-great-goofini-00.jpg"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/630/354/90/media/disneyparksjapan-prod/disneyparksjapan_v0001/1/media/wdw/attractions/barnstormer-starring-great-goofini-00.jpg",
+    "Comments": []
 },{
     "Ride_name": "The Magic Carpets of Aladdin",
     "Park_location": "MK",
@@ -1080,7 +1114,8 @@
     "Age_of_ride_total": "18 years 5 months 1 days",
     "TL_rank": 44,
     "TA_Stars": 4,
-    "Image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tokyo_DisneySea_The_Magic_Carpets_of_Aladdin_201306.jpg"
+    "Image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tokyo_DisneySea_The_Magic_Carpets_of_Aladdin_201306.jpg",
+    "Comments": []
 },{
     "Ride_name": "The Many Adventures of Winnie the Pooh",
     "Park_location": "MK",
@@ -1110,7 +1145,8 @@
     "Age_of_ride_total": "20 years 4 months 19 days",
     "TL_rank": 28,
     "TA_Stars": 4,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-many-adventures-of-winnie-the-pooh/many-adventures-of-winnie-the-pooh-00.jpg?1658975815781"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-many-adventures-of-winnie-the-pooh/many-adventures-of-winnie-the-pooh-00.jpg?1658975815781",
+    "Comments": []
     
 },{
     "Ride_name": "The Twilight Zone Tower of Terror",
@@ -1141,7 +1177,8 @@
     "Age_of_ride_total": "25 years 3 months 2 days",
     "TL_rank": 3,
     "TA_Stars": 5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/twilight-zone-tower-of-terror/twilight-zone-tower-of-terror-gallery00.jpg?1659553641008"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/twilight-zone-tower-of-terror/twilight-zone-tower-of-terror-gallery00.jpg?1659553641008",
+    "Comments": []
 },{
     "Ride_name": "Tomorrowland Speedway",
     "Park_location": "MK",
@@ -1171,7 +1208,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 38,
     "TA_Stars": 3.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/tomorrowland-speedway/tomorrowland-speedway-gallery05.jpg?1559892525944"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/tomorrowland-speedway/tomorrowland-speedway-gallery05.jpg?1559892525944",
+    "Comments": []
 },{
     "Ride_name": "Tomorrowland Transit Authority PeopleMover",
     "Park_location": "MK",
@@ -1201,7 +1239,8 @@
     "Age_of_ride_total": "44 years 3 months 23 days",
     "TL_rank": 30,
     "TA_Stars": 4,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/tomorrowland-transit-authority-peoplemover/tomorrowland-transit-authority-peoplemover-gallery02.jpg?1638982344913"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/tomorrowland-transit-authority-peoplemover/tomorrowland-transit-authority-peoplemover-gallery02.jpg?1638982344913",
+    "Comments": []
 },{
     "Ride_name": "Toy Story Mania",
     "Park_location": "HS",
@@ -1231,7 +1270,8 @@
     "Age_of_ride_total": "11 years 4 months 24 days",
     "TL_rank": 6,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/toy-story-mania/toy-story-mania-gallery03.jpg?1559892255929"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/toy-story-mania/toy-story-mania-gallery03.jpg?1559892255929",
+    "Comments": []
 },{
     "Ride_name": "TriceraTop Spin",
     "Park_location": "AK",
@@ -1261,7 +1301,8 @@
     "Age_of_ride_total": "17 years 6 months 24 days",
     "TL_rank": 45,
     "TA_Stars": 4,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/animal-kingdom/triceratop-spin/triceratop-spin-gallery00.jpg?1658994414721"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/animal-kingdom/triceratop-spin/triceratop-spin-gallery00.jpg?1658994414721",
+    "Comments": []
 },{
     "Ride_name": "Under the Sea",
     "Park_location": "MK",
@@ -1291,7 +1332,8 @@
     "Age_of_ride_total": "6 years 10 months 16 days",
     "TL_rank": 34,
     "TA_Stars": 4.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/under-the-sea-journey-of-the-little-mermaid/under-the-sea-journey-of-the-little-mermaid-new-00.jpg?1658976694349"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/under-the-sea-journey-of-the-little-mermaid/under-the-sea-journey-of-the-little-mermaid-new-00.jpg?1658976694349",
+    "Comments": []
 },{
     "Ride_name": "Walt Disney World Railroad",
     "Park_location": "MK",
@@ -1321,7 +1363,8 @@
     "Age_of_ride_total": "48 years 0 months 22 days",
     "TL_rank": 48,
     "TA_Stars": 4,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/walt-disney-world-railroad-frontierland/walt-disney-world-railroad-frontierland-00.jpg?1671807721685"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/walt-disney-world-railroad-frontierland/walt-disney-world-railroad-frontierland-00.jpg?1671807721685",
+    "Comments": []
 },{
     "Ride_name": "Walt Disney's Carousel of Progress",
     "Park_location": "MK",
@@ -1351,7 +1394,8 @@
     "Age_of_ride_total": "44 years 9 months 7 days",
     "TL_rank": 52,
     "TA_Stars": 4,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/walt-disneys-carousel-of-progress/walt-disney-carousel-of-progress-00.jpg?1658976507632"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/walt-disneys-carousel-of-progress/walt-disney-carousel-of-progress-00.jpg?1658976507632",
+    "Comments": []
 },{
     "Ride_name": "Wildlife Express Train",
     "Park_location": "AK",
@@ -1381,7 +1425,8 @@
     "Age_of_ride_total": "21 years 6 months 2 days",
     "TL_rank": "NA",
     "TA_Stars": 3.5,
-    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/animal-kingdom/wildlife-express-train/wildlife-express-train-gallery00.jpg?1559891925881"
+    "Image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/animal-kingdom/wildlife-express-train/wildlife-express-train-gallery00.jpg?1559891925881",
+    "Comments": []
 }]
 
 }
