@@ -16,10 +16,13 @@ function FilterBar({ridesList}) {
     const locations = ['HS', 'MK', 'AK', 'EC'];
     const locationHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
-        const rideLocation = ridesList.filter(location => 
-            // console.log(location.Park_location)
-            location.Park_location === e
-            )
+        const rideLocation = ridesList.filter(ride => {
+                // console.log(ride.Park_location)
+                if (e.target.value === ride.Park_location) {
+                    return ride;
+                }
+                return null;
+            })
             setLocation(rideLocation)
     }
     const scaryOrNot = ['Yes', 'No'];
