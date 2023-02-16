@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Rides from "./Components/Rides";
+import Home from "./Components/Home";
 import './App.css';
 import Header from "./Components/Header";
 import FilterBar from "./Components/FilterBar";
@@ -36,7 +37,11 @@ function App() {
           <Header />
 
           <Switch>
-            
+            <Route path="/home">
+              <Home/>
+            </Route>
+
+
             <Route path="/rides">
               <Rides ridesList={ridesList}/>
             </Route>
