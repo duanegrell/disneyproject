@@ -1,22 +1,32 @@
 import React, {useState} from "react";
 
-function Comments() {
-    const [comment, setComment] = useState("");
+
+function Comments( {comment} ) {
+
+    const [newComment, setNewComment] = useState("");
+    
+    
+    function postNewComment(e) {
+        e.preventDefault();
+        console.log(newComment)
+        
+    }
 
     return (
     <div className="card_comment_form">
-        <p>{comment}</p>
-        <form>
+        <form id="comment">
+            <p className="comments">Reviews: {comment}</p>
             <label>
-                New Comment: 
+                Add a Review: 
                 <input 
                     type="text" 
+                    className="new-comment"
                     name="comment" 
                     placeholder="Type comments here..."
-                    onChange={(e) => setComment(e.target.value)}
+                    onChange={(e) => setNewComment(e.target.value)}
                 />
+            <button className="comment-button" type="submit" onClick={postNewComment}>submit</button>
             </label>
-            <input type="submit" name="Submit" onSubmit={(e) => setComment(e.target.value)}/>
         </form>
     </div> 
     );
