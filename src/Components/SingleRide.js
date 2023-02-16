@@ -41,7 +41,7 @@ function SingleRide({
       <div className="card">
         <img src={image} alt={name} className="card__image" />
         <div onClick={handleClick} className="card__content">
-          <button onClick={() => onDelete(id)}>x</button>
+          <button onClick={() => onDelete(id)} className="delete-button">x</button>
           <div className="card__title">{name} </div>
           <p className="card__text">Type: {type}</p>
           {/* <p className="comments">{comments}</p> */}
