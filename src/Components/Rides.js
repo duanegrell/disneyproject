@@ -1,4 +1,5 @@
 import React from "react";
+import Comments from "./Comments";
 import SingleRide from "./SingleRide";
 
 function Rides( {ridesList}) {
@@ -20,10 +21,12 @@ function Rides( {ridesList}) {
 
     ))
 
+
     return (
     <ul className="cards">
         {mappedRides}
     </ul>
+
     );
 };
 
