@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Comments from "./Comments";
 
-function SingleRide( { name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration, image, comments } ) {
+function SingleRide( { key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration, image, comments } ) {
 
     const[clicked, setClicked] = useState(false);
     
@@ -50,7 +50,7 @@ function SingleRide( { name, type, parkLocation, scary, slow, water, heightRequi
                 </div>      
                 <div>                   
                     {/* <p>{clicked ?  <Comments/>: null}</p> */}
-                    {clicked && <Comments comment={comments}/> }
+                    {clicked && <Comments comment={comments} key={key}/> }
                 <div/>
             </div>
         </div>
