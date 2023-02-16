@@ -5,6 +5,7 @@ import './App.css';
 import Header from "./Components/Header";
 import FilterBar from "./Components/FilterBar";
 import NavBar from "./Components/NavBar";
+import SearchBar from "./Components/SearchBar";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   const [ridesList, setRidesList] = useState([]);
   const [location, setLocation] = useState([]); 
   const [scary, setScary] = useState('');
+  const [searchText, setSearchText] = useState("");
 
   useEffect(()=> {
     fetch(' http://localhost:8004/rides')
@@ -70,11 +72,17 @@ function App() {
   }
   // console.log(filteredScary())
 
+  const searchedRides = searchText ?
+    ridesList.filter(ride => ride.Ride_name.toLowerCase().includes(searchText.toLowerCase()))
+    : ridesList;
+
+
   return (
     <div className="App">
         <main>
           <NavBar />
           <Header />
+          <SearchBar setSearchText={setSearchText} />
 
           <Switch>
             <Route path="/home">
@@ -83,7 +91,7 @@ function App() {
 
 
             <Route path="/rides">
-              <Rides ridesList={ridesList}/>
+              <Rides ridesList={searchedRides}/>
             </Route>
 
             {/* /Filter => Route to main page  */}
