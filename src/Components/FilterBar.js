@@ -1,11 +1,13 @@
 import React, {useState} from "react";
+// import SingleRide from './SingleRide';
+import Rides from './Rides';
 
-function FilterBar({ridesList}) {
-    function handleClickSearch() {
-        console.log('clicked')
-    }
-    // filter buttons here
-    const [location, setLocation] = useState([]); 
+function FilterBar({locationHandler}) {
+    // function handleClickSearch() {
+    //     console.log('clicked')
+    // }
+    // // filter buttons here
+    // // const [location, setLocation] = useState([]); 
     
     const [scary, setScary] = useState(true);
     const [water, setWater] = useState(true);
@@ -16,16 +18,18 @@ function FilterBar({ridesList}) {
 
     const locations = ['HS', 'MK', 'AK', 'EC'];
     
-    const locationHandler = (e) => {
-        console.log("User Selected Value - ", e.target.value)
-        const rideLocation = ridesList.filter(ride => {
+    // const locationHandler = (e) => {
+    //     console.log("User Selected Value - ", e.target.value)
+    //     const rideLocation = ridesList.filter(ride => {
 
-                return ride.Park_location.includes(e.target.value)
-            })
-            console.log(rideLocation)
-            setLocation(rideLocation)
-    }
+    //             return ride.Park_location.includes(e.target.value)
+                
+    //         })
+    //         console.log(rideLocation)
+    //         setLocation(rideLocation)
+    // }
 
+   
     const scaryOrNot = ['Yes', 'No'];
     const scaryHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
@@ -97,23 +101,14 @@ function FilterBar({ridesList}) {
                 <option>Duration </option>
                 <option>{}</option>
             </select>
-
-            {/* <label for="Location"></label> */}
-            {/* <select name="location" id="location-select">
-                <option value="">Location </option>
-                <option value="hs">HS</option>
-                <option value="mk">MK</option>
-                <option value="ak">AK</option>
-                <option value="ec">EC</option>
-            </select> */}
-            {/* <select name="Scary or Not" id="Scary-or-Not-select">
-                <option value="">Scary or Not </option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>*/}
             <br/>
-            <button className="search-btn" onClick={handleClickSearch}>Search</button>
+            {/* <button className="search-btn" onClick={handleClickSearch}>Search</button> */}
             </h2>
+            {/* <ul className="card-filtered-by-location"> */}
+                "it's a string"
+                {/* <SingleRide /> */}
+                {/* <Rides /> */}
+            {/* </ul> */}
 
         </div>
     )

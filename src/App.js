@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 function App() {
 
   const [ridesList, setRidesList] = useState([]);
+  const [location, setLocation] = useState([]); 
 
   useEffect(()=> {
     fetch(' http://localhost:8004/rides')
@@ -16,6 +17,18 @@ function App() {
     .then(ridesList => setRidesList(ridesList))
   },[])
 
+  const locationHandler = (e) => {
+    console.log("User Selected Value - ", e.target.value)
+    setLocation(e.target.value)
+  }
+  const filteredRides = () => { 
+    return ridesList.filter(ride => 
+        ride.Park_location.includes(location.toString())
+    //console.log(typeof(ride.Park_location))
+    )}
+  // console.log(typeof((location)))
+  // console.log(filteredRides())
+  // console.log(ridesList[1])  
   return (
     <div className="App">
         <main>
@@ -30,7 +43,8 @@ function App() {
 
             {/* /Filter => Route to main page  */}
             <Route path="/filter">
-              <FilterBar ridesList={ridesList}/>
+              <FilterBar ridesList={ridesList} locationHandler={locationHandler}/>
+              <Rides ridesList={filteredRides()}/>
             </Route>
 
             {/* / => Route to main page  */}
