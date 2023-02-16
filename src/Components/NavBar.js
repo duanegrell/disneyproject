@@ -20,6 +20,11 @@ function NavBar() {
           <button className="NavBarButton">Filter</button>
           </Link>
         </li>
+        <li>
+          <Link to="/newrideform">
+          <button className="NavBarButton">Add Ride</button>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
