@@ -5,11 +5,22 @@ function Comments( {comment} ) {
 
     const [newComment, setNewComment] = useState("");
     
-    
     function postNewComment(e) {
         e.preventDefault();
-        console.log(newComment)
-        
+
+        const newCommentArray = [...comment, newComment]
+        console.log(newCommentArray)
+
+        // fetch(` http://localhost:8004/rides/`, {
+        //     method: "PATCH",
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify({
+        //         newCommentArray
+        //     })
+        // })
+
     }
 
     return (
@@ -37,3 +48,7 @@ export default Comments;
 
 
 
+// newCommentArray.forEach((oneComment) => {
+//     const li = document.createElement("li");
+//     li.textContent = oneComment;
+// })
