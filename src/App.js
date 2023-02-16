@@ -1,3 +1,5 @@
+
+
 import React, { useEffect, useState } from "react";
 import Rides from "./Components/Rides";
 import Home from "./Components/Home";
@@ -82,7 +84,6 @@ function App() {
         <main>
           <NavBar />
           <Header />
-          <SearchBar setSearchText={setSearchText} />
 
           <Switch>
             <Route path="/home">
@@ -91,7 +92,8 @@ function App() {
 
 
             <Route path="/rides">
-              <Rides ridesList={searchedRides}/>
+              <SearchBar setSearchText={setSearchText}/>
+              <Rides ridesList={searchedRides} searchText={searchText}/>
             </Route>
 
             {/* /Filter => Route to main page  */}

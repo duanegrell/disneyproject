@@ -3,34 +3,41 @@
   background-color: #c3cfd3;
 }
 
-.navbar {
+.NavBar {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100px;
 }
 
-.nav-links {
+.NavBar ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-link {
-  display: inline-block;
-  background-color: #2196f3;
+.NavBar li {
+  margin: 0 1rem;
+}
+
+.NavBar li a {
   color: white;
-  padding: 12px 24px;
   text-decoration: none;
-  margin: 10px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-.nav-link:hover {
-  background-color: #0d8bf2;
+.NavBarButton {
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.NavBarButton:hover {
+  background-color: #0062ac;
 }
 
 header span {
