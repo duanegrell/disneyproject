@@ -15,6 +15,7 @@ function Rides( {ridesList}) {
             heightRequirement = {ride.Height_req_inches}
             rideDuration = {ride.Ride_duration_min}
             image = {ride.Image}
+            comments={ride.Comments}
         />
 
     ))

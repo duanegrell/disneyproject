@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import Comments from "./Comment";
+import Comments from "./Comments";
 
-function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration, image } ) {
+function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightRequirement, rideDuration, image, comments } ) {
 
     const[clicked, setClicked] = useState(false);
     
@@ -11,6 +11,7 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
     const isSlow = [`Slow: ${slow}`]
     const isScary = [`Scary: ${scary}`]
     const location = [`Location: ${parkLocation}`]
+
 
     // if (parkLocation === "MK") {
     //     return "Location: Hong Kong"
@@ -47,8 +48,8 @@ function SingleRide( {key, name, type, parkLocation, scary, slow, water, heightR
                     <p>{clicked ? duration : null}</p>
                     <p>{clicked ? height : null}</p>
                 </div>
-            </div>
-            <p>{clicked ? <Comments/> : null}</p>              
+                <Comments /> 
+            </div>      
         </div>
     </li>
     );
