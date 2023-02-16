@@ -2,14 +2,14 @@ import React, {useState} from "react";
 // import SingleRide from './SingleRide';
 import Rides from './Rides';
 
-function FilterBar({locationHandler}) {
+function FilterBar({locationHandler, scaryHandler}) {
     // function handleClickSearch() {
     //     console.log('clicked')
     // }
     // // filter buttons here
     // // const [location, setLocation] = useState([]); 
     
-    const [scary, setScary] = useState(true);
+    // const [scary, setScary] = useState(true);
     const [water, setWater] = useState(true);
     const [kids, setKids] = useState(true);
     const [spin, setSpin] = useState(true);
@@ -29,16 +29,8 @@ function FilterBar({locationHandler}) {
     //         setLocation(rideLocation)
     // }
 
-   
     const scaryOrNot = ['Yes', 'No'];
-    const scaryHandler = (e) => {
-        console.log("User Selected Value - ", e.target.value)
-        if (scary === true) {
-            setScary(true)
-        } else {
-            setScary(false);
-        } 
-    }
+   
     const waterRide = ['Yes', 'No'];
     const waterRideHandler = (e) => {
         console.log("User Selected Value - ", e.target.value)
@@ -105,7 +97,6 @@ function FilterBar({locationHandler}) {
             {/* <button className="search-btn" onClick={handleClickSearch}>Search</button> */}
             </h2>
             {/* <ul className="card-filtered-by-location"> */}
-                "it's a string"
                 {/* <SingleRide /> */}
                 {/* <Rides /> */}
             {/* </ul> */}
