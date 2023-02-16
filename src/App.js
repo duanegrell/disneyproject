@@ -22,34 +22,36 @@ function App() {
   },[])
 
   const locationHandler = (e) => {
-    // console.log("User Selected Value - ", e.target.value)
-    setLocation(e.target.value)
+    // console.log(e.target.value)
+    const value = e.target.value === 'Location' ? '' : e.target.value;
+    setLocation(value)
   }
+
   const filteredRides = () => {
     if (location.toString() === '' && scary === '') {
-      return []
+      return [];
+    } else if(location.toString() === '' && scary !== ''){
+      return ridesList.filter(ride => {
+        return ride;
+      })
     } else {
-      return ridesList.filter(ride => 
-          ride.Park_location.includes(location.toString())
-      //console.log(typeof(ride.Park_location))
-      )}
+      return ridesList.filter(ride => {
+        return ride.Park_location.includes(location)
+        // console.log(typeof(ride.Park_location))
+      })
     }
-  // console.log(typeof((location)))
+  }
+    
+  // console.log(typeof(location))
   // console.log(typeof(filteredRides()))
   // console.log(filteredRides())
 
   const scaryHandler = (e) => {
-    console.log("User Selected Value - ", e.target.value)
+    // console.log("User Selected Value - ", e.target.value)
     setScary(e.target.value)
-    // if (scary === true) {
-    //     setScary(false)
-    // } else {
-    //     setScary(true);
-    // } 
   }
 
   const filteredScary = () => {
-    
     if (scary === '') {
       return [...filteredRides()];
     } else if (location.toString() === '') {
@@ -60,17 +62,15 @@ function App() {
         ride.Ride_type_scary.includes(scary)
         // ride.Ride_type_scary.includes(scary.toString())
         )
-
-    }
-      else {
-          return [...filteredRides()].filter(ride =>
-            ride.Ride_type_scary.includes(scary) 
-            // console.log(ride.Ride_type_scary.includes(scary))
-            // console.log(scary.toString())
-            )
-        } 
-  }
-  // console.log(filteredScary())
+    } else {
+      return [...filteredRides()].filter(ride =>
+        ride.Ride_type_scary.includes(scary) 
+          // console.log(ride.Ride_type_scary.includes(scary))
+          // console.log(scary.toString())
+          )} 
+        }
+        // console.log(filteredScary())
+    
 
   const searchedRides = searchText ?
     ridesList.filter(ride => ride.Ride_name.toLowerCase().includes(searchText.toLowerCase()))
@@ -97,7 +97,6 @@ function App() {
             {/* /Filter => Route to main page  */}
             <Route path="/filter">
               <FilterBar 
-                // ridesList={ridesList} 
                 locationHandler={locationHandler}
                 scaryHandler={scaryHandler}
               />
