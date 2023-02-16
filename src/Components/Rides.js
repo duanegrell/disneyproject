@@ -2,11 +2,12 @@ import React from "react";
 import Comments from "./Comments";
 import SingleRide from "./SingleRide";
 
-function Rides( {ridesList}) {
+function Rides( {ridesList, onDelete} ) {
     
     const mappedRides = ridesList.map((ride) => (
         <SingleRide 
-            key = {ride.Ride_name}
+            key = {ride.id}
+            id = {ride.id}
             name = {ride.Ride_name}
             type = {ride.Ride_type_all}
             parkLocation = {ride.Park_location}
@@ -17,6 +18,8 @@ function Rides( {ridesList}) {
             rideDuration = {ride.Ride_duration_min}
             image = {ride.Image}
             comments={ride.Comments}
+            //Passing the function as a prop
+            onDelete={onDelete}
         />
 
     ))
