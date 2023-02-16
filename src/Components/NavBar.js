@@ -6,7 +6,7 @@ function NavBar() {
     <header>
         <span>
             <h3>
-                <Link to="/" className="nav-link">
+                <Link to="/home" className="nav-link">
                     Home
                 </Link>
             </h3>
