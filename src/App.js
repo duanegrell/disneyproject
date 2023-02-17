@@ -57,11 +57,13 @@ function App() {
     } else if (location.toString() === "" && scary !== "") {
       return ridesList.filter((ride) => {
         return ride;
+        // console.log(ride)
       });
     } else {
       return ridesList.filter((ride) => {
         return ride.Park_location.includes(location);
         // console.log(typeof(ride.Park_location))
+        // console.log(ride.Park_location.includes(location))
       });
     }
   };
