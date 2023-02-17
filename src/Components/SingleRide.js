@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Comments from "./Comments";
+import CommentsForm from "./CommentsForm";
 
 function SingleRide({
   id,
@@ -56,7 +56,7 @@ function SingleRide({
         </div>
         <div>
           {/* <p>{clicked ?  <Comments/>: null}</p> */}
-          {clicked && <Comments comment={comments} />}
+          {clicked && <CommentsForm comments={comments} id={id}/>}
           <div />
         </div>
       </div>
